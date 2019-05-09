@@ -1,0 +1,4 @@
+.vs/
+NapDatabaseExport/obj/
+NapDatabaseExport/bin/
+!*.dll
