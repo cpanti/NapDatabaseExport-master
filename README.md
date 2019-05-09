@@ -15,11 +15,22 @@ This tool consists of a single screen which allows you to:
 2. List all databases (if you are connecting to a server).
 3. List all tables in the database.
 4. Select which tables to extract information from or select all.
-5. Choose a file format for extraction.
+5. Choose a file format for extraction. (CSV semicolumn delimited / CSV comma delimited)
 6. Save all the data from each selected table in a separate file.
 
 ## Technologies used
 
-C#, Windows Forms and .NET 4.0 (almost any software vendor can use this as it runs on Windows XP and should run on Linux, macOS with Mono)
+C#, Windows Forms and .NET 4.0
 
-Connects to SQLite, MySQL, Microsoft SQL Server and Microsoft Access databases. More can be added in the future from contributors.
+Connects to SQLite, MySQL, Microsoft SQL Server, Microsoft Access databases and declared ODBC Data Source Name (DSN). 
+Depending on the Build Platform choosed an compilation time, is will use the 32-bit or 64-bit System Data Sources
+More Database Providers can be added in the future.
+
+## Other information
+
+This project is a fork of https://github.com/flipm0de/NapDatabaseExport.
+Many thanks to Vladimir Dimitrov (flipm0de).
+
+
+
+
